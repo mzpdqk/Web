@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-nav">
+                <div class="logo">
+                    <img src="static/pictures/logo.png" alt="Logo">
+                    <span>Интернет магазин</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#products">Каталог</a></li>
+                        <li><a href="#map">Адрес</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="https://t.me/mzpdqk" target="_blank">Поддержка</a></li>
+                        <li><a href="buy_now.html" class="product-button" id="product1-button">Корзина</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Поиск по сайту" id="search-input">
+                <button type="submit" id="search-button">Поиск</button>
+            </div>
+            <div class="auth-buttons">
+                <a href="login.html" class="nav-link">Вход</a>
+                <a href="register.html" class="nav-link">Регистрация</a>
+            </div>
+        </div>
+    </header>
+    <div class="header-background"></div>
+    <main>
+        <section id="products" class="product-card">
+            <h2>Каталог товаров</h2>
+        </section>
+        <div class="grid-container">
+            <div class="grid-item" style="grid-area: item1;">
+                <a href="product1.html">
+                    <img src="static/pictures/product1.jpg" alt="Product 1">
+                    <p class="product-title">Умные часы SmartWatch Pro</p>
+                    <p class="product-description">Умные часы с функциями мониторинга сердечного ритма, подсчета шагов, калорий и качества сна. Водонепроницаемые, с ярким AMOLED дисплеем и долговечной батареей.</p>
+                    <div class="product-footer">
+                        <span class="product-price">7999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product1-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item2;">
+                <a href="product2.html">
+                    <img src="static/pictures/product2.jpg" alt="Product 2">
+                    <p class="product-title">Беспроводные наушники SoundWave X</p>
+                    <p class="product-description">Беспроводные наушники с активным шумоподавлением, 24-часовым временем работы и быстрой зарядкой. Идеально подходят для спорта и повседневного использования.</p>
+                    <div class="product-footer">
+                        <span class="product-price">5999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product2-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item3;">
+                <a href="product3.html">
+                    <img src="static/pictures/product3.jpg" alt="Product 3">
+                    <p class="product-title">Электрическая зубная щетка DentalCare 3000</p>
+                    <p class="product-description">Зубная щетка с 5 режимами чистки, таймером и датчиком давления. Обеспечивает глубокую очистку зубов и десен.</p>
+                    <div class="product-footer">
+                        <span class="product-price">4899 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product3-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item4;">
+                <a href="product4.html">
+                    <img src="static/pictures/product4.jpg" alt="Product 4">
+                    <p class="product-title">Портативный проектор MiniProjector</p>
+                    <p class="product-description">Компактный проектор с разрешением Full HD, встроенным аккумулятором и поддержкой беспроводного подключения. Идеален для домашнего кинотеатра и презентаций.</p>
+                    <div class="product-footer">
+                        <span class="product-price">11999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product4-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item5;">
+                <a href="product5.html">
+                    <img src="static/pictures/product5.jpg" alt="Product 5">
+                    <p class="product-title">Робот-пылесос CleanBot 2.0</p>
+                    <p class="product-description">Автономный робот-пылесос с функцией влажной уборки, лазерной навигацией и управляемый через мобильное приложение. Легко справляется с уборкой любых помещений.</p>
+                    <div class="product-footer">
+                        <span class="product-price">24999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product5-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item6;">
+                <a href="product6.html">
+                    <img src="static/pictures/product6.jpg" alt="Product 6">
+                    <p class="product-title">Фитнес-браслет FitBand Lite</p>
+                    <p class="product-description">Легкий и удобный фитнес-браслет с функциями мониторинга активности, сна и уведомлений. Водонепроницаемый и с длительным временем работы батареи.</p>
+                    <div class="product-footer">
+                        <span class="product-price">4999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product6-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item7;">
+                <a href="product7.html">
+                    <img src="static/pictures/product7.jpg" alt="Product 7">
+                    <p class="product-title">Электрический чайник SmartKettle</p>
+                    <p class="product-description">Чайник с функцией поддержания температуры, автоматическим отключением и удобным дисплеем. Быстро нагревает воду и поддерживает ее температуру.
+                    </p>
+                    <div class="product-footer">
+                        <span class="product-price">4999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product7-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item8;">
+                <a href="product8.html">
+                    <img src="static/pictures/product8.jpg" alt="Product 8">
+                    <p class="product-title">Беспроводная зарядная станция WirelessCharge Pad</p>
+                    <p class="product-description">Универсальная зарядная станция для всех устройств с поддержкой беспроводной зарядки. Быстрая зарядка и стильный дизайн.</p>
+                    <div class="product-footer">
+                        <span class="product-price">3499 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product8-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item9;">
+                <a href="product9.html">
+                    <img src="static/pictures/product9.jpg" alt="Product 9">
+                    <p class="product-title">Умная лампа SmartLamp</p>
+                    <p class="product-description">Лампа с регулируемой яркостью и цветом, управляемая через мобильное приложение или голосовые помощники. Создает уютную атмосферу в любом помещении.</p>
+                    <div class="product-footer">
+                        <span class="product-price">6999 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product9-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: item10;">
+                <a href="product10.html">
+                    <img src="static/pictures/product10.jpg" alt="Product 10">
+                    <p class="product-title">Портативный внешний аккумулятор PowerBank XL</p>
+                    <p class="product-description">Высокоемкий внешний аккумулятор с быстрой зарядкой и несколькими портами USB. Идеален для путешествий и длительного использования вне дома.</p>
+                    <div class="product-footer">
+                        <span class="product-price">3199 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="product10-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <section id="certificates" class="product-card">
+            <h2>Сертификаты</h2>
+        </section>
+        <div class="grid-container2">
+            <div class="grid-item" style="grid-area: cert1;">
+                <a href="certificate1.html">
+                    <img src="static/pictures/sertificate.png" alt="Certificate 1">
+                    <p class="product-title">Сертификат на 1000 рублей</p>
+                    <p class="product-description">Порадуйте своих близких сертификатом на 1000 рублей!</p>
+                    <div class="product-footer">
+                        <span class="product-price">1000 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="certificate1-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: cert2;">
+                <a href="certificate2.html">
+                    <img src="static/pictures/sertificate.png" alt="Certificate 2">
+                    <p class="product-title">Сертификат на 3000 рублей</p>
+                    <p class="product-description">Порадуйте своих близких сертификатом на 3000 рублей!</p>
+                    <div class="product-footer">
+                        <span class="product-price">3000 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="certificate2-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: cert3;">
+                <a href="certificate3.html">
+                    <img src="static/pictures/sertificate.png" alt="Certificate 3">
+                    <p class="product-title">Сертификат на 5000 рублей</p>
+                    <p class="product-description">Порадуйте своих близких сертификатом на 5000 рублей!</p>
+                    <div class="product-footer">
+                        <span class="product-price">5000 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="certificate3-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: cert4;">
+                <a href="certificate4.html">
+                    <img src="static/pictures/sertificate.png" alt="Certificate 4">
+                    <p class="product-title">Сертификат на 10000 рублей</p>
+                    <p class="product-description">Порадуйте своих близких сертификатом на 10000 рублей!</p>
+                    <div class="product-footer">
+                        <span class="product-price">10000 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="certificate4-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+            <div class="grid-item" style="grid-area: cert5;">
+                <a href="certificate5.html">
+                    <img src="static/pictures/sertificate.png" alt="Certificate 5">
+                    <p class="product-title">Сертификат на 20000 рублей</p>
+                    <p class="product-description">Порадуйте своих близких сертификатом на 20000 рублей!</p>
+                    <div class="product-footer">
+                        <span class="product-price">20000 руб.</span>
+                        <a href="buy_now.html" class="product-button" id="certificate5-button">В корзину</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <section class="contact-card-container">
+            <section id="contact" class="contact-card">
+                <h2>Наши контакты</h2>
+                <div class="business-card-content">
+                    <p><img src="static/pictures/phone-icon.png" alt="Phone"> +7 (123) 456-78-90</p>
+                    <p><img src="static/pictures/email-icon.png" alt="Email"> service@gmail.com</p>
+                    <p><b>Спасибо что выбрали нас!</b></p>
+                    <div class="social-icons">
+                        <a href="https://t.me/mzpdqk" target="_blank"><img src="static/pictures/telegram-icon.png" alt="Telegram"></a>
+                        <a href="https://vk.com/mzpdqk" target="_blank"><img src="static/pictures/vk-icon.png" alt="VK"></a>
+                        <a href="https://vk.com/mzpdqk" target="_blank"><img src="static/pictures/instagram-logo.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="newsletter" class="contact-card">
+                <h2>Подписаться на рассылку</h2>
+                <div class="business-card-content">
+                    <form>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="agreement">
+                            <input type="checkbox" id="agreement" name="agreement" required>
+                            Я согласен на обработку персональных данных
+                        </label>
+                        <button type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+
+    </main>
+    <footer>
+        <h2>Наш магазин распологается по следующему адресу:</h2>
+        <div class="footer-content">
+            <div class="location-left">
+                <h3><strong>Зайти можно со стороны входа c Московского шоссе</strong></h3>
+                <img src="static/pictures/location-left.png" alt="Location Left">
+            </div>
+            <section id="map">
+            <div class="location-map">
+                <h3><strong>ТЦ "Русь на Волге" - Московское ш., 15Б, Самара, 443080</strong></h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d609503.217894361!2d49.06743593582347!3d53.36344663783073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661eb15bf8e9f5%3A0x966617114be97ff7!2z0KDRg9GB0Ywg0L3QsCDQktC-0LvQs9C1!5e0!3m2!1sru!2sru!4v1733313799680!5m2!1sru!2sru" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+            <div class="location-right">
+                <h3><strong>Вход в магазин</strong></h3>
+                <img src="static/pictures/location-right.png" alt="Location Right">
+            </div>
+        </div>
+        </section>
+        <hr>
+        <div class="footer-container">
+            <nav>
+                <ul>
+                    <li><a href="#products">Каталог</a></li>
+                    <li><a href="#map">Адрес</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="https://t.me/mzpdqk" target="_blank">Поддержка</a></li>
+                    <li><a href="buy_now.html" class="product-button" id="product1-button">Корзина</a></li>
+                </ul>
+            </nav>
+            <div class="footer-content">
+                <div class="payment-icons">
+                    <img src="static/pictures/visa-icon.png" alt="Visa">
+                    <img src="static/pictures/mastercard-icon.jpg" alt="Mastercard">
+                    <img src="static/pictures/yoomoney-icon.png" alt="Yoomoney">
+                    <img src="static/pictures/mir-icon.png" alt="Mir">
+                    <img src="static/pictures/sbp-icon.png" alt="SBP">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
